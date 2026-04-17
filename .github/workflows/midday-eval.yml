@@ -1,32 +1,36 @@
-name: Market Gauntlet — Mid-day Evaluation
+name: Market Gauntlet — Mid-day Bot
 
 on:
-  # Runs at 12:30pm ET on weekdays (17:30 UTC, accounting for ET = UTC-5)
-  # Change to 16:30 UTC during EDT (summer, UTC-4)
   schedule:
+    # 12:30pm ET weekdays
+    # EST = UTC-5 → 17:30 UTC | EDT = UTC-4 (summer) → 16:30 UTC
     - cron: '30 17 * * 1-5'
 
-  # Also allow manual trigger from GitHub Actions UI — useful for testing
+  # Manual trigger — use this to test anytime from Actions tab
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  evaluate:
-    name: Evaluate Open Plays
+  midday-scan:
+    name: Mid-day Evaluation + Fill Slots
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Run evaluator
+      - name: Run mid-day bot
         run: node evaluate.js
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
-          GIST_ID: ${{ secrets.GIST_ID }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
