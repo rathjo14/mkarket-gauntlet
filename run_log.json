@@ -1,0 +1,64 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-04-20T18:34:46.676Z",
+      "trigger": "schedule",
+      "evaluations": [],
+      "new_plays": [
+        {
+          "ticker": "IBIT",
+          "play_type": "long",
+          "direction": "bullish",
+          "conviction": 8
+        },
+        {
+          "ticker": "QQQ",
+          "play_type": "call",
+          "direction": "bullish",
+          "conviction": 7
+        },
+        {
+          "ticker": "MU",
+          "play_type": "call",
+          "direction": "bullish",
+          "conviction": 8
+        },
+        {
+          "ticker": "XLE",
+          "play_type": "put_spread",
+          "direction": "bearish",
+          "conviction": 7
+        },
+        {
+          "ticker": "MSTR",
+          "play_type": "long",
+          "direction": "bullish",
+          "conviction": 8
+        },
+        {
+          "ticker": "UVXY",
+          "play_type": "put",
+          "direction": "bearish",
+          "conviction": 7
+        },
+        {
+          "ticker": "TLT",
+          "play_type": "put",
+          "direction": "bearish",
+          "conviction": 7
+        },
+        {
+          "ticker": "APP",
+          "play_type": "long",
+          "direction": "bullish",
+          "conviction": 8
+        }
+      ],
+      "slots_before": 0,
+      "slots_after": 8,
+      "errors": [],
+      "status": "ok"
+    }
+  ],
+  "last_run": "2026-04-20T18:34:46.676Z"
+}

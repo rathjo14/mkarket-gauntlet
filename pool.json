@@ -1,0 +1,349 @@
+{
+  "pool": [
+    {
+      "id": "bot_1776710171735_1",
+      "ticker": "IBIT",
+      "name": "iShares Bitcoin Trust ETF",
+      "asset_type": "etf",
+      "play_category": "accumulation",
+      "days_to_catalyst": 60,
+      "iv_rank_estimate": 25,
+      "binary_outcome": "N/A",
+      "manually_approved": false,
+      "play_type": "long",
+      "instrument": "spot",
+      "strike_guidance": "N/A - ETF purchase",
+      "expiration_guidance": "6-12 month hold",
+      "conviction": 8,
+      "position_size_pct": "2.0% of portfolio",
+      "direction": "bullish",
+      "thesis": "Institutional ETF flows ($762M liquidations cleared shorts) with BTC at $75K vs $126K ATH. Post-halving window remains open through 2026.",
+      "catalyst": "Trump strategic bitcoin reserve legislation progress May-June 2026",
+      "bear_case": "Fed hawkish pivot on sticky inflation could drain liquidity from risk assets",
+      "invalidation": "Break below $65K support invalidates bull cycle thesis",
+      "timeframe": "1 quarter",
+      "framework": "Cowen",
+      "robinhood_tickers": [
+        {
+          "symbol": "IBIT",
+          "type": "etf_spot",
+          "liquidity": "high",
+          "note": "Direct BTC exposure without custody risk"
+        }
+      ],
+      "status": "",
+      "evaluations": [],
+      "review": null,
+      "generated_at": "2026-04-20T18:36:11.735Z",
+      "added_to_pool": "2026-04-20T18:36:11.735Z",
+      "generated_by": "midday_bot",
+      "session_context": {
+        "market_thesis": "BTC at $75K sits in post-halving consolidation phase with institutional ETF flows offsetting Iran geopolitical headwinds. VIX cooling from 30 to 17 signals risk-on resumption despite elevated rates.",
+        "cycle_phase": "mid_bull",
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "bot_1776710171735_2",
+      "ticker": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "asset_type": "etf",
+      "play_category": "tactical",
+      "days_to_catalyst": 25,
+      "iv_rank_estimate": 20,
+      "binary_outcome": "Right: 15-20% upside to new highs. Wrong: 10-15% downside if earnings disappoint",
+      "manually_approved": false,
+      "play_type": "call",
+      "instrument": "options",
+      "strike_guidance": "$660-670 calls",
+      "expiration_guidance": "45-60 DTE (June expiry)",
+      "conviction": 7,
+      "position_size_pct": "1.5% of portfolio",
+      "direction": "bullish",
+      "thesis": "Tech earnings momentum with NVDA driving 22.8% growth in Mag 7. VIX compression from 30 to 17 signals renewed risk appetite. QQQ at $648 vs $650 ATH.",
+      "catalyst": "NVDA earnings April 23 and broader tech earnings beat expectations",
+      "bear_case": "AI valuations already stretched with NVDA carrying entire sector growth",
+      "invalidation": "Close below $620 support breaks uptrend",
+      "timeframe": "1-2 weeks",
+      "framework": "Technical",
+      "robinhood_tickers": [
+        {
+          "symbol": "QQQ",
+          "type": "options",
+          "liquidity": "high",
+          "note": "Clean tech exposure with tight spreads"
+        }
+      ],
+      "status": "",
+      "evaluations": [],
+      "review": null,
+      "generated_at": "2026-04-20T18:36:11.735Z",
+      "added_to_pool": "2026-04-20T18:36:11.735Z",
+      "generated_by": "midday_bot",
+      "session_context": {
+        "market_thesis": "BTC at $75K sits in post-halving consolidation phase with institutional ETF flows offsetting Iran geopolitical headwinds. VIX cooling from 30 to 17 signals risk-on resumption despite elevated rates.",
+        "cycle_phase": "mid_bull",
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "bot_1776710171735_3",
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "asset_type": "equity",
+      "play_category": "tactical",
+      "days_to_catalyst": 14,
+      "iv_rank_estimate": 35,
+      "binary_outcome": "Right: 25-30% move on continued AI strength. Wrong: 15-20% decline on guidance miss",
+      "manually_approved": false,
+      "play_type": "call",
+      "instrument": "options",
+      "strike_guidance": "$140-145 calls",
+      "expiration_guidance": "30-45 DTE (May expiry)",
+      "conviction": 8,
+      "position_size_pct": "1.8% of portfolio",
+      "direction": "bullish",
+      "thesis": "HBM4 36GB shipping to NVDA, 2026 capacity fully committed. Record Q2 beat with Q3 guidance raise. AI memory supercycle accelerating.",
+      "catalyst": "Next earnings update showing HBM shipment acceleration",
+      "bear_case": "Google memory optimization tech could reduce AI memory demand",
+      "invalidation": "Break below $120 suggests AI memory peak",
+      "timeframe": "1 month",
+      "framework": "Fundamental",
+      "robinhood_tickers": [
+        {
+          "symbol": "MU",
+          "type": "options",
+          "liquidity": "high",
+          "note": "Pure AI memory play with liquid options"
+        }
+      ],
+      "status": "",
+      "evaluations": [],
+      "review": null,
+      "generated_at": "2026-04-20T18:36:11.735Z",
+      "added_to_pool": "2026-04-20T18:36:11.735Z",
+      "generated_by": "midday_bot",
+      "session_context": {
+        "market_thesis": "BTC at $75K sits in post-halving consolidation phase with institutional ETF flows offsetting Iran geopolitical headwinds. VIX cooling from 30 to 17 signals risk-on resumption despite elevated rates.",
+        "cycle_phase": "mid_bull",
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "bot_1776710171735_4",
+      "ticker": "XLE",
+      "name": "Energy Select Sector SPDR Fund",
+      "asset_type": "etf",
+      "play_category": "tactical",
+      "days_to_catalyst": 30,
+      "iv_rank_estimate": 65,
+      "binary_outcome": "Right: Collect premium as energy normalizes. Wrong: Oil stays elevated on supply fears",
+      "manually_approved": false,
+      "play_type": "put_spread",
+      "instrument": "options",
+      "strike_guidance": "Sell $95 puts, buy $85 puts",
+      "expiration_guidance": "30-45 DTE (May expiry)",
+      "conviction": 7,
+      "position_size_pct": "1.2% of portfolio",
+      "direction": "bearish",
+      "thesis": "Oil spike from $75 to $100 on Iran tensions unsustainable. Muscat Protocol reducing Hormuz risk. Energy sector overbought on geopolitical premium fade.",
+      "catalyst": "Iran ceasefire extension and oil inventory build",
+      "bear_case": "Geopolitical tensions could re-escalate keeping oil elevated",
+      "invalidation": "Oil breakout above $105 suggests structural supply shortage",
+      "timeframe": "1 month",
+      "framework": "Macro",
+      "robinhood_tickers": [
+        {
+          "symbol": "XLE",
+          "type": "options",
+          "liquidity": "medium",
+          "note": "Broad energy exposure for mean reversion play"
+        }
+      ],
+      "status": "",
+      "evaluations": [],
+      "review": null,
+      "generated_at": "2026-04-20T18:36:11.735Z",
+      "added_to_pool": "2026-04-20T18:36:11.735Z",
+      "generated_by": "midday_bot",
+      "session_context": {
+        "market_thesis": "BTC at $75K sits in post-halving consolidation phase with institutional ETF flows offsetting Iran geopolitical headwinds. VIX cooling from 30 to 17 signals risk-on resumption despite elevated rates.",
+        "cycle_phase": "mid_bull",
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "bot_1776710171735_5",
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "asset_type": "equity",
+      "play_category": "accumulation",
+      "days_to_catalyst": 45,
+      "iv_rank_estimate": 40,
+      "binary_outcome": "N/A",
+      "manually_approved": false,
+      "play_type": "long",
+      "instrument": "spot",
+      "strike_guidance": "N/A - stock purchase",
+      "expiration_guidance": "3-6 month hold",
+      "conviction": 8,
+      "position_size_pct": "2.2% of portfolio",
+      "direction": "bullish",
+      "thesis": "Leveraged BTC play with 5M ETH treasury accumulated. Saylor's strategic bitcoin reserve proposal gaining political traction. Premium to NAV compressed.",
+      "catalyst": "Bitcoin reserve legislation advancement and BTC price appreciation",
+      "bear_case": "High debt load vulnerable to rates staying higher for longer",
+      "invalidation": "BTC breaks $65K support undermines entire thesis",
+      "timeframe": "1 quarter",
+      "framework": "Cowen",
+      "robinhood_tickers": [
+        {
+          "symbol": "MSTR",
+          "type": "crypto_spot",
+          "liquidity": "high",
+          "note": "Leveraged BTC exposure with treasury strategy"
+        }
+      ],
+      "status": "",
+      "evaluations": [],
+      "review": null,
+      "generated_at": "2026-04-20T18:36:11.735Z",
+      "added_to_pool": "2026-04-20T18:36:11.735Z",
+      "generated_by": "midday_bot",
+      "session_context": {
+        "market_thesis": "BTC at $75K sits in post-halving consolidation phase with institutional ETF flows offsetting Iran geopolitical headwinds. VIX cooling from 30 to 17 signals risk-on resumption despite elevated rates.",
+        "cycle_phase": "mid_bull",
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "bot_1776710171735_6",
+      "ticker": "UVXY",
+      "name": "ProShares Ultra VIX Short-Term Futures ETF",
+      "asset_type": "etf",
+      "play_category": "tactical",
+      "days_to_catalyst": 21,
+      "iv_rank_estimate": 45,
+      "binary_outcome": "Right: Volatility stays low, collect time decay. Wrong: New shock spikes VIX",
+      "manually_approved": false,
+      "play_type": "put",
+      "instrument": "options",
+      "strike_guidance": "$8-9 puts",
+      "expiration_guidance": "30 DTE (May expiry)",
+      "conviction": 7,
+      "position_size_pct": "1.0% of portfolio",
+      "direction": "bearish",
+      "thesis": "VIX collapsed from 30 to 17 as geopolitical premium fades. Contango structure favors continued volatility decay in absence of new shocks.",
+      "catalyst": "Continued geopolitical de-escalation and earnings strength",
+      "bear_case": "New geopolitical shock or Fed hawkish surprise could spike vol",
+      "invalidation": "VIX breakout above 25 suggests new risk-off regime",
+      "timeframe": "1 month",
+      "framework": "Technical",
+      "robinhood_tickers": [
+        {
+          "symbol": "UVXY",
+          "type": "options",
+          "liquidity": "high",
+          "note": "2x leveraged VIX decay play"
+        }
+      ],
+      "status": "",
+      "evaluations": [],
+      "review": null,
+      "generated_at": "2026-04-20T18:36:11.735Z",
+      "added_to_pool": "2026-04-20T18:36:11.735Z",
+      "generated_by": "midday_bot",
+      "session_context": {
+        "market_thesis": "BTC at $75K sits in post-halving consolidation phase with institutional ETF flows offsetting Iran geopolitical headwinds. VIX cooling from 30 to 17 signals risk-on resumption despite elevated rates.",
+        "cycle_phase": "mid_bull",
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "bot_1776710171735_7",
+      "ticker": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "asset_type": "etf",
+      "play_category": "tactical",
+      "days_to_catalyst": 35,
+      "iv_rank_estimate": 30,
+      "binary_outcome": "Right: Rates stay higher, TLT continues decline. Wrong: Recession fears drive flight to quality",
+      "manually_approved": false,
+      "play_type": "put",
+      "instrument": "options",
+      "strike_guidance": "$88-90 puts",
+      "expiration_guidance": "60 DTE (June expiry)",
+      "conviction": 7,
+      "position_size_pct": "1.3% of portfolio",
+      "direction": "bearish",
+      "thesis": "10Y yield breaking higher as core PCE stays at 2.8%. Fed only one cut priced vs three previously. Duration risk with sticky inflation expectations.",
+      "catalyst": "April CPI/PCE data showing persistent inflation pressure",
+      "bear_case": "Unexpected economic weakness could drive flight to bonds",
+      "invalidation": "10Y yield breaks below 4.2% suggests disinflation resuming",
+      "timeframe": "1-2 weeks",
+      "framework": "Macro",
+      "robinhood_tickers": [
+        {
+          "symbol": "TLT",
+          "type": "options",
+          "liquidity": "high",
+          "note": "Clean duration play on rates staying higher"
+        }
+      ],
+      "status": "",
+      "evaluations": [],
+      "review": null,
+      "generated_at": "2026-04-20T18:36:11.735Z",
+      "added_to_pool": "2026-04-20T18:36:11.735Z",
+      "generated_by": "midday_bot",
+      "session_context": {
+        "market_thesis": "BTC at $75K sits in post-halving consolidation phase with institutional ETF flows offsetting Iran geopolitical headwinds. VIX cooling from 30 to 17 signals risk-on resumption despite elevated rates.",
+        "cycle_phase": "mid_bull",
+        "risk_level": "moderate"
+      }
+    },
+    {
+      "id": "bot_1776710171735_8",
+      "ticker": "APP",
+      "name": "AppLovin Corporation",
+      "asset_type": "equity",
+      "play_category": "accumulation",
+      "days_to_catalyst": 28,
+      "iv_rank_estimate": 35,
+      "binary_outcome": "N/A",
+      "manually_approved": false,
+      "play_type": "long",
+      "instrument": "spot",
+      "strike_guidance": "N/A - stock purchase",
+      "expiration_guidance": "2-3 month hold",
+      "conviction": 8,
+      "position_size_pct": "1.7% of portfolio",
+      "direction": "bullish",
+      "thesis": "AI ad-tech leader with Q4 beat and strong 2026 guidance. Multiple analyst upgrades with Buy ratings. High margins in AI-driven advertising optimization.",
+      "catalyst": "Next earnings showing continued AI advertising strength",
+      "bear_case": "SEC investigation into AI data practices creates regulatory overhang",
+      "invalidation": "Break below recent support suggests fundamental deterioration",
+      "timeframe": "1 quarter",
+      "framework": "Fundamental",
+      "robinhood_tickers": [
+        {
+          "symbol": "APP",
+          "type": "options",
+          "liquidity": "medium",
+          "note": "Pure AI advertising play with strong fundamentals"
+        }
+      ],
+      "status": "",
+      "evaluations": [],
+      "review": null,
+      "generated_at": "2026-04-20T18:36:11.735Z",
+      "added_to_pool": "2026-04-20T18:36:11.735Z",
+      "generated_by": "midday_bot",
+      "session_context": {
+        "market_thesis": "BTC at $75K sits in post-halving consolidation phase with institutional ETF flows offsetting Iran geopolitical headwinds. VIX cooling from 30 to 17 signals risk-on resumption despite elevated rates.",
+        "cycle_phase": "mid_bull",
+        "risk_level": "moderate"
+      }
+    }
+  ],
+  "last_updated": "2026-04-20T18:36:11.736Z"
+}
