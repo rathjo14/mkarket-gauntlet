@@ -47,22 +47,37 @@
           "adverse_day": false,
           "conviction_score": 5,
           "conviction_delta": -3
+        },
+        {
+          "checked_at": "2026-04-22T18:39:46.524Z",
+          "source": "midday_scan",
+          "current_price": "$44.48",
+          "price_change_24h": "+3.9%",
+          "thesis_status": "intact",
+          "signal": "hold",
+          "signal_reason": "Strong BTC momentum above $78K with institutional flows but congressional delay on strategic reserve.",
+          "summary": "<cite index=\"4-1,4-2\">IBIT trading at $44.48 after breaking through consolidation range</cite>. <cite index=\"18-4,18-7\">Bitcoin broke above $78,000 following Trump's Iran ceasefire extension, with broader crypto market lifting</cite>. <cite index=\"23-3,25-9\">Strategic Bitcoin Reserve remains stalled in Congress over a year after executive order, with potential inclusion in year-end defense bill as best chance for passage</cite>.",
+          "updated_bear_case": "<cite index=\"23-17\">Reserve is bullish for BTC only as long as it exists, but existence not guaranteed beyond January 2029 without legislation</cite>. <cite index=\"16-19,16-20\">Fed's cautious rate cuts approach and stronger inflation data keeping financial conditions tighter than Bitcoin prefers</cite>.",
+          "key_level_to_watch": "$70,000",
+          "adverse_day": false,
+          "conviction_score": 7,
+          "conviction_delta": -1
         }
       ],
       "review": {
-        "checked_at": "2026-04-21T18:40:23.426Z",
+        "checked_at": "2026-04-22T18:39:46.524Z",
         "source": "midday_scan",
-        "current_price": "$43.03",
-        "price_change_24h": "+1.5%",
-        "thesis_status": "weakening",
-        "signal": "watch",
-        "signal_reason": "Strategic bitcoin reserve stalled in Congress for over a year, Fed hawkish pivot undermining risk asset thesis.",
-        "summary": "<cite index=\"4-1,4-6\">IBIT trading at $43.03</cite> as <cite index=\"11-1,11-5\">Bitcoin hit $75,901 today</cite>. <cite index=\"23-3,23-10\">Trump's strategic bitcoin reserve has \"languished\" without congressional approval for over a year</cite> despite March 2025 executive order. <cite index=\"31-17,39-18\">Fed officials now signaling potential rate hikes with Cleveland Fed estimating 3.5% inflation</cite>, creating major headwinds for risk assets like Bitcoin ETFs.",
-        "updated_bear_case": "<cite index=\"31-3,31-4\">Stagflationary energy shock and sticky inflation forcing Fed into \"no landing\" scenario where rates stay elevated through late 2027</cite>. <cite index=\"34-17,37-3\">Major institutions now expect zero rate cuts in 2026</cite>, removing the liquidity backstop that supported crypto rallies.",
-        "key_level_to_watch": "$38.97 support (volume accumulation level)",
+        "current_price": "$44.48",
+        "price_change_24h": "+3.9%",
+        "thesis_status": "intact",
+        "signal": "hold",
+        "signal_reason": "Strong BTC momentum above $78K with institutional flows but congressional delay on strategic reserve.",
+        "summary": "<cite index=\"4-1,4-2\">IBIT trading at $44.48 after breaking through consolidation range</cite>. <cite index=\"18-4,18-7\">Bitcoin broke above $78,000 following Trump's Iran ceasefire extension, with broader crypto market lifting</cite>. <cite index=\"23-3,25-9\">Strategic Bitcoin Reserve remains stalled in Congress over a year after executive order, with potential inclusion in year-end defense bill as best chance for passage</cite>.",
+        "updated_bear_case": "<cite index=\"23-17\">Reserve is bullish for BTC only as long as it exists, but existence not guaranteed beyond January 2029 without legislation</cite>. <cite index=\"16-19,16-20\">Fed's cautious rate cuts approach and stronger inflation data keeping financial conditions tighter than Bitcoin prefers</cite>.",
+        "key_level_to_watch": "$70,000",
         "adverse_day": false,
-        "conviction_score": 5,
-        "conviction_delta": -3
+        "conviction_score": 7,
+        "conviction_delta": -1
       },
       "generated_at": "2026-04-20T18:36:11.735Z",
       "added_to_pool": "2026-04-20T18:36:11.735Z",
@@ -375,5 +390,5 @@
       }
     }
   ],
-  "last_updated": "2026-04-21T18:40:39.627Z"
+  "last_updated": "2026-04-22T18:40:01.671Z"
 }
