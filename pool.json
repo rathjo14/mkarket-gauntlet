@@ -62,22 +62,37 @@
           "adverse_day": false,
           "conviction_score": 7,
           "conviction_delta": -1
+        },
+        {
+          "checked_at": "2026-04-23T18:42:34.603Z",
+          "source": "midday_scan",
+          "current_price": "<cite index='2-1,2-15'>$44.14</cite>",
+          "price_change_24h": "<cite index='1-9'>-1.36%</cite>",
+          "thesis_status": "weakening",
+          "signal": "watch",
+          "signal_reason": "IBIT down to $44.14 while <cite index='11-1'>Bitcoin at $77,809</cite> suggests ETF trading at discount. <cite index='25-3,25-10'>Strategic reserve has 'languished' for over a year without congressional approval</cite>.",
+          "summary": "<cite index='2-1'>IBIT at $44.14</cite> while <cite index='11-1,11-2'>BTC at $77,809 - down $384 from yesterday</cite>. <cite index='14-4,14-8'>BTC dominance rising to 58.1% with Fear & Greed at 46</cite>. <cite index='21-4,21-5'>Trump's Strategic Bitcoin Reserve still awaits congressional action with potential defense bill inclusion late 2026</cite>.",
+          "updated_bear_case": "<cite index='25-17'>Reserve bullish only as long as it exists, but not guaranteed beyond January 2029 without legislation</cite>. <cite index='14-6,14-7'>$107B daily volume below average suggests institutional flows remain sidelined</cite>.",
+          "key_level_to_watch": "<cite index='4-7'>Support at $42.54</cite>",
+          "adverse_day": true,
+          "conviction_score": 5,
+          "conviction_delta": -3
         }
       ],
       "review": {
-        "checked_at": "2026-04-22T18:39:46.524Z",
+        "checked_at": "2026-04-23T18:42:34.603Z",
         "source": "midday_scan",
-        "current_price": "$44.48",
-        "price_change_24h": "+3.9%",
-        "thesis_status": "intact",
-        "signal": "hold",
-        "signal_reason": "Strong BTC momentum above $78K with institutional flows but congressional delay on strategic reserve.",
-        "summary": "<cite index=\"4-1,4-2\">IBIT trading at $44.48 after breaking through consolidation range</cite>. <cite index=\"18-4,18-7\">Bitcoin broke above $78,000 following Trump's Iran ceasefire extension, with broader crypto market lifting</cite>. <cite index=\"23-3,25-9\">Strategic Bitcoin Reserve remains stalled in Congress over a year after executive order, with potential inclusion in year-end defense bill as best chance for passage</cite>.",
-        "updated_bear_case": "<cite index=\"23-17\">Reserve is bullish for BTC only as long as it exists, but existence not guaranteed beyond January 2029 without legislation</cite>. <cite index=\"16-19,16-20\">Fed's cautious rate cuts approach and stronger inflation data keeping financial conditions tighter than Bitcoin prefers</cite>.",
-        "key_level_to_watch": "$70,000",
-        "adverse_day": false,
-        "conviction_score": 7,
-        "conviction_delta": -1
+        "current_price": "<cite index='2-1,2-15'>$44.14</cite>",
+        "price_change_24h": "<cite index='1-9'>-1.36%</cite>",
+        "thesis_status": "weakening",
+        "signal": "watch",
+        "signal_reason": "IBIT down to $44.14 while <cite index='11-1'>Bitcoin at $77,809</cite> suggests ETF trading at discount. <cite index='25-3,25-10'>Strategic reserve has 'languished' for over a year without congressional approval</cite>.",
+        "summary": "<cite index='2-1'>IBIT at $44.14</cite> while <cite index='11-1,11-2'>BTC at $77,809 - down $384 from yesterday</cite>. <cite index='14-4,14-8'>BTC dominance rising to 58.1% with Fear & Greed at 46</cite>. <cite index='21-4,21-5'>Trump's Strategic Bitcoin Reserve still awaits congressional action with potential defense bill inclusion late 2026</cite>.",
+        "updated_bear_case": "<cite index='25-17'>Reserve bullish only as long as it exists, but not guaranteed beyond January 2029 without legislation</cite>. <cite index='14-6,14-7'>$107B daily volume below average suggests institutional flows remain sidelined</cite>.",
+        "key_level_to_watch": "<cite index='4-7'>Support at $42.54</cite>",
+        "adverse_day": true,
+        "conviction_score": 5,
+        "conviction_delta": -3
       },
       "generated_at": "2026-04-20T18:36:11.735Z",
       "added_to_pool": "2026-04-20T18:36:11.735Z",
@@ -390,5 +405,5 @@
       }
     }
   ],
-  "last_updated": "2026-04-22T18:40:01.671Z"
+  "last_updated": "2026-04-23T18:42:50.179Z"
 }
