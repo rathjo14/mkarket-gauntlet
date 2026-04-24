@@ -77,22 +77,37 @@
           "adverse_day": true,
           "conviction_score": 5,
           "conviction_delta": -3
+        },
+        {
+          "checked_at": "2026-04-24T18:06:38.088Z",
+          "source": "midday_scan",
+          "current_price": "$43.97",
+          "price_change_24h": "+0.1%",
+          "thesis_status": "weakening",
+          "signal": "watch",
+          "signal_reason": "Bitcoin range-bound at $78K below key $80K resistance while strategic reserve catalyst stalled. Need breakout confirmation or lower entry.",
+          "summary": "<cite index=\"1-1\">IBIT at $43.97</cite> as <cite index=\"11-2,12-1\">Bitcoin trades $78,106-$78,126</cite>, well below $126K ATH but above $65K invalidation. <cite index=\"16-7,17-3\">Failed breakout near $80,000 on Wednesday with BTC still not breaking out of bear flag</cite>. <cite index=\"22-4,23-7\">Strategic Bitcoin Reserve executive order has \"languished\" over a year without congressional approval</cite> despite recent legislative efforts.",
+          "updated_bear_case": "Technical: BTC stalling at bear flag resistance with negative funding rates and cooling momentum. Political: Reserve catalyst appears dead in water with thin Senate support and Elizabeth Warren calling it \"giveaway to crypto speculators\".",
+          "key_level_to_watch": "$80,000 BTC / $52 IBIT equivalent",
+          "adverse_day": false,
+          "conviction_score": 6,
+          "conviction_delta": -2
         }
       ],
       "review": {
-        "checked_at": "2026-04-23T18:42:34.603Z",
+        "checked_at": "2026-04-24T18:06:38.088Z",
         "source": "midday_scan",
-        "current_price": "<cite index='2-1,2-15'>$44.14</cite>",
-        "price_change_24h": "<cite index='1-9'>-1.36%</cite>",
+        "current_price": "$43.97",
+        "price_change_24h": "+0.1%",
         "thesis_status": "weakening",
         "signal": "watch",
-        "signal_reason": "IBIT down to $44.14 while <cite index='11-1'>Bitcoin at $77,809</cite> suggests ETF trading at discount. <cite index='25-3,25-10'>Strategic reserve has 'languished' for over a year without congressional approval</cite>.",
-        "summary": "<cite index='2-1'>IBIT at $44.14</cite> while <cite index='11-1,11-2'>BTC at $77,809 - down $384 from yesterday</cite>. <cite index='14-4,14-8'>BTC dominance rising to 58.1% with Fear & Greed at 46</cite>. <cite index='21-4,21-5'>Trump's Strategic Bitcoin Reserve still awaits congressional action with potential defense bill inclusion late 2026</cite>.",
-        "updated_bear_case": "<cite index='25-17'>Reserve bullish only as long as it exists, but not guaranteed beyond January 2029 without legislation</cite>. <cite index='14-6,14-7'>$107B daily volume below average suggests institutional flows remain sidelined</cite>.",
-        "key_level_to_watch": "<cite index='4-7'>Support at $42.54</cite>",
-        "adverse_day": true,
-        "conviction_score": 5,
-        "conviction_delta": -3
+        "signal_reason": "Bitcoin range-bound at $78K below key $80K resistance while strategic reserve catalyst stalled. Need breakout confirmation or lower entry.",
+        "summary": "<cite index=\"1-1\">IBIT at $43.97</cite> as <cite index=\"11-2,12-1\">Bitcoin trades $78,106-$78,126</cite>, well below $126K ATH but above $65K invalidation. <cite index=\"16-7,17-3\">Failed breakout near $80,000 on Wednesday with BTC still not breaking out of bear flag</cite>. <cite index=\"22-4,23-7\">Strategic Bitcoin Reserve executive order has \"languished\" over a year without congressional approval</cite> despite recent legislative efforts.",
+        "updated_bear_case": "Technical: BTC stalling at bear flag resistance with negative funding rates and cooling momentum. Political: Reserve catalyst appears dead in water with thin Senate support and Elizabeth Warren calling it \"giveaway to crypto speculators\".",
+        "key_level_to_watch": "$80,000 BTC / $52 IBIT equivalent",
+        "adverse_day": false,
+        "conviction_score": 6,
+        "conviction_delta": -2
       },
       "generated_at": "2026-04-20T18:36:11.735Z",
       "added_to_pool": "2026-04-20T18:36:11.735Z",
@@ -405,5 +420,5 @@
       }
     }
   ],
-  "last_updated": "2026-04-23T18:42:50.179Z"
+  "last_updated": "2026-04-24T18:06:54.377Z"
 }
