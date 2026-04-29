@@ -62,22 +62,37 @@
           "adverse_day": false,
           "conviction_score": 5,
           "conviction_delta": -2
+        },
+        {
+          "checked_at": "2026-04-29T18:56:19.823Z",
+          "source": "midday_scan",
+          "current_price": "657.55",
+          "price_change_24h": "-1.03%",
+          "thesis_status": "strengthened",
+          "signal": "hold",
+          "signal_reason": "Tech momentum intact despite daily decline. NVDA beat earnings driving sector growth, QQQ at strong levels above original thesis.",
+          "summary": "QQQ closed at $657.55, down -1.03% today but significantly above thesis entry of $648. NVIDIA's Q4 2026 blowout earnings with $68.1B revenue (+73% YoY) and $62.3B data center revenue validates AI thesis. Next NVDA earnings May 20th creates positive catalyst runway.",
+          "updated_bear_case": "Rising competition narrative emerging with Alphabet's TPU v8 announcement and stretched valuations at 25x forward P/E despite strong fundamentals.",
+          "key_level_to_watch": "653.81",
+          "adverse_day": true,
+          "conviction_score": 8,
+          "conviction_delta": 1
         }
       ],
       "review": {
-        "checked_at": "2026-04-28T19:08:30.090Z",
+        "checked_at": "2026-04-29T18:56:19.823Z",
         "source": "midday_scan",
-        "current_price": "$654.09",
-        "price_change_24h": "+0.00%",
-        "thesis_status": "weakening",
-        "signal": "watch",
-        "signal_reason": "NVDA hasn't reported April 23 earnings yet - thesis catalyst premature. Heavy AI spending concerns emerging across tech ahead of Big Tech earnings.",
-        "summary": "QQQ at $654 remains well above $620 invalidation but the thesis is built on a false catalyst. NVDA earnings aren't until May 20th, not April 23rd as stated. Tech sector faces growing scrutiny over massive AI capex with major hyperscalers reporting Wednesday.",
-        "updated_bear_case": "AI 'ROI reckoning' narrative gaining traction as analysts question whether $650B+ AI spending translates to revenue. Free cash flow compression expected across Big Tech as infrastructure spending outpaces returns.",
-        "key_level_to_watch": "$648",
-        "adverse_day": false,
-        "conviction_score": 5,
-        "conviction_delta": -2
+        "current_price": "657.55",
+        "price_change_24h": "-1.03%",
+        "thesis_status": "strengthened",
+        "signal": "hold",
+        "signal_reason": "Tech momentum intact despite daily decline. NVDA beat earnings driving sector growth, QQQ at strong levels above original thesis.",
+        "summary": "QQQ closed at $657.55, down -1.03% today but significantly above thesis entry of $648. NVIDIA's Q4 2026 blowout earnings with $68.1B revenue (+73% YoY) and $62.3B data center revenue validates AI thesis. Next NVDA earnings May 20th creates positive catalyst runway.",
+        "updated_bear_case": "Rising competition narrative emerging with Alphabet's TPU v8 announcement and stretched valuations at 25x forward P/E despite strong fundamentals.",
+        "key_level_to_watch": "653.81",
+        "adverse_day": true,
+        "conviction_score": 8,
+        "conviction_delta": 1
       },
       "generated_at": "2026-04-20T18:36:11.735Z",
       "added_to_pool": "2026-04-20T18:36:11.735Z",
@@ -261,5 +276,5 @@
       }
     }
   ],
-  "last_updated": "2026-04-28T19:08:39.000Z"
+  "last_updated": "2026-04-29T18:56:29.165Z"
 }
