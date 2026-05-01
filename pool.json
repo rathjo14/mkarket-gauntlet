@@ -92,22 +92,37 @@
           "adverse_day": false,
           "conviction_score": 7,
           "conviction_delta": 0
+        },
+        {
+          "checked_at": "2026-05-01T18:39:19.437Z",
+          "source": "midday_scan",
+          "current_price": "$674.78",
+          "price_change_24h": "+1.05%",
+          "thesis_status": "strengthened",
+          "signal": "hold",
+          "signal_reason": "QQQ broke above ATH at $675.76, VIX compressed to 17.1 (-9.1% today), NVDA May 20 earnings catalyst intact with 77-80% revenue growth expected.",
+          "summary": "<cite index=\"7-1,7-2\">QQQ hit new ATH at $675.76 today trading at $674.78 vs yesterday's close of $667.74</cite>. <cite index=\"24-1\">VIX collapsed -9.1% to 17.10</cite>, confirming risk-on sentiment. <cite index=\"11-1,17-2\">NVDA earnings confirmed for May 20 with guidance for 77% revenue growth</cite>.",
+          "updated_bear_case": "<cite index=\"14-4,18-7\">Competition concerns from Amazon and Google heating up, potentially weighing on NVDA margins</cite>. <cite index=\"18-10\">High valuations may limit upside even with strong earnings</cite>.",
+          "key_level_to_watch": "$670 support - former resistance now key support",
+          "adverse_day": false,
+          "conviction_score": 8,
+          "conviction_delta": 1
         }
       ],
       "review": {
-        "checked_at": "2026-04-30T18:53:07.271Z",
+        "checked_at": "2026-05-01T18:39:19.437Z",
         "source": "midday_scan",
-        "current_price": "$662.23",
-        "price_change_24h": "+0.1%",
-        "thesis_status": "intact",
+        "current_price": "$674.78",
+        "price_change_24h": "+1.05%",
+        "thesis_status": "strengthened",
         "signal": "hold",
-        "signal_reason": "NVDA delivered exceptional Q1 results with $68B revenue but guidance shows slight deceleration. QQQ holding steady near highs despite rising VIX.",
-        "summary": "QQQ at $662.23, holding well above $620 invalidation level. NVDA earnings catalyst delivered with record $68.1B Q4 revenue (+73% YoY) but Q1 guidance of $78B shows modest deceleration from recent quarters. VIX rising to 18.8 from prior 17 levels on tech earnings uncertainty and Iran tensions, but remains well below March peak of 31.",
-        "updated_bear_case": "VIX climbing back toward 20 amid concentrated earnings risk from Mag 7 and geopolitical tensions pushing oil above $110. Some concerns emerging about AI spending sustainability with OpenAI missing user/revenue targets.",
-        "key_level_to_watch": "$650 support - former ATH now key technical level",
+        "signal_reason": "QQQ broke above ATH at $675.76, VIX compressed to 17.1 (-9.1% today), NVDA May 20 earnings catalyst intact with 77-80% revenue growth expected.",
+        "summary": "<cite index=\"7-1,7-2\">QQQ hit new ATH at $675.76 today trading at $674.78 vs yesterday's close of $667.74</cite>. <cite index=\"24-1\">VIX collapsed -9.1% to 17.10</cite>, confirming risk-on sentiment. <cite index=\"11-1,17-2\">NVDA earnings confirmed for May 20 with guidance for 77% revenue growth</cite>.",
+        "updated_bear_case": "<cite index=\"14-4,18-7\">Competition concerns from Amazon and Google heating up, potentially weighing on NVDA margins</cite>. <cite index=\"18-10\">High valuations may limit upside even with strong earnings</cite>.",
+        "key_level_to_watch": "$670 support - former resistance now key support",
         "adverse_day": false,
-        "conviction_score": 7,
-        "conviction_delta": 0
+        "conviction_score": 8,
+        "conviction_delta": 1
       },
       "generated_at": "2026-04-20T18:36:11.735Z",
       "added_to_pool": "2026-04-20T18:36:11.735Z",
@@ -291,5 +306,5 @@
       }
     }
   ],
-  "last_updated": "2026-04-30T18:53:16.098Z"
+  "last_updated": "2026-05-01T18:39:28.633Z"
 }
